@@ -7,8 +7,8 @@ function App() {
   const [ count, setCount] = useState(0);
   return (
     <>
-      <div className='px-[500px]'>
-      <CarouselDemo/>
+      <div className='px-auto mx-auto'>
+        <CarouselDemo/>
       </div>
       <Button>{count} hellow shadcn</Button>
     </>
